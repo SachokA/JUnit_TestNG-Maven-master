@@ -44,10 +44,10 @@ public class Calculator {
         }
         return b;
     }
-    public int addParametrs(int ... parametrs) {
+    public int addParameters(int ... parameters) {
         int sum = 0;
-        for (int i = 0; i < parametrs.length; i++) {
-            sum+=parametrs[i];
+        for (int i = 0; i < parameters.length; i++) {
+            sum+=parameters[i];
         }
         return sum;
     }
