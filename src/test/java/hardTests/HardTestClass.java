@@ -11,7 +11,7 @@ public class HardTestClass {
 
 
     @Test
-    public void testAddParametrs() {
+    public void testAddParameters() {
         int actualResult = calc.addParameters(20, 32);
         assertEquals("Sum 20 and 32", 52, actualResult);
     }

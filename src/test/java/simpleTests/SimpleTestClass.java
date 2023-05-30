@@ -7,6 +7,7 @@ import static org.testng.AssertJUnit.assertEquals;
 
 
 public class SimpleTestClass {
+    // I'm trying to chance something
 
     Calculator calc = new Calculator();
 
