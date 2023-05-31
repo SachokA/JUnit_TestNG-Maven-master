@@ -12,8 +12,9 @@ public class HardTestClass {
 
     @Test
     public void testAddParameters() {
-        int actualResult = calc.addParameters(20, 32);
-        assertEquals("Sum 20 and 32", 52, actualResult);
+        //I changed amount paramaters in the metod and result
+        int actualResult = calc.addParameters(22,2,25);
+        assertEquals("Sum 22 and 2 and 25", 49, actualResult);
     }
 
     @Test
