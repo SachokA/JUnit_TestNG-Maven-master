@@ -38,7 +38,7 @@ public class SimpleTestClass {
     @Test
     public void testSquareRootTwoPositiveValues() {
         double actualResult = calc.squareRoot(100);
-        assertEquals("Sguare 100 must be 10", 10.0, actualResult);
+        assertEquals("Square 100 must be 10", 10.0, actualResult);
     }
 
     @Test
