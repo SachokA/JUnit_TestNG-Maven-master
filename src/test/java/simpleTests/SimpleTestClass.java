@@ -19,8 +19,9 @@ public class SimpleTestClass {
 
     @Test
     public void testSubtractionTwoPositiveValues() {
-        int actualResult = calc.subtraction(10, 5);
-        assertEquals("10 - 5 must be 5", 5, actualResult);
+        // Changed number which will be subtraction
+        int actualResult = calc.subtraction(22, 12);
+        assertEquals("22 - 12 must be 10", 10, actualResult);
     }
 
     @Test
